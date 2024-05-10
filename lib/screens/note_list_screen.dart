@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:notes/services/note_service.dart';
 import 'package:notes/widgets/note_dialog.dart';
 
+
 class NoteListScreen extends StatefulWidget {
   const NoteListScreen({super.key});
+
 
   @override
   State<NoteListScreen> createState() => _NoteListScreenState();
 }
+
 
 class _NoteListScreenState extends State<NoteListScreen> {
   @override
@@ -33,8 +36,10 @@ class _NoteListScreenState extends State<NoteListScreen> {
   }
 }
 
+
 class NoteList extends StatelessWidget {
   const NoteList({super.key});
+
 
   @override
   Widget build(BuildContext context) {
